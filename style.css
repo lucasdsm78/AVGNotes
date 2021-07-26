@@ -1,0 +1,225 @@
+
+*{
+    background-color : #F2FBFB;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.title {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+
+    border-bottom: solid 2.5px black;
+}
+
+.trimestreannee {
+    float: right;
+}
+
+.button{
+    border: 1px solid lightgray;
+    padding: 5px 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.button:hover{
+    background: #666666;
+    cursor: pointer;
+}
+
+/*Tableaux*/
+
+table{
+    text-align: center;
+    padding: 20px;
+}
+
+tr{
+    padding: 20px;
+    border: 1px solid lightgrey;
+}
+
+td{
+    padding: 20px;
+    border: 1px solid lightgrey;
+}
+
+
+.home{
+    border: 3px solid;
+    padding: 20px 200px;
+    margin: 20px 300px;
+    text-align: center;
+    margin: 20px;
+    
+    text-align: center;
+
+}
+
+
+table{
+
+    margin:auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+   
+}
+
+tr{
+
+}
+
+tr[scope="row"] {
+    border: 3px solid black;
+}
+
+th[scope="row"] {
+    border: 3px solid black;
+  
+}
+
+
+td[scope="mat"] {
+    border: 3px solid black;
+    background-color: #A0AAC7;
+}
+
+
+
+th{
+    padding: 0px 20px;
+      background-color: #A0AAC7;
+}
+
+td{
+    padding: 0px 40px;
+    border: 2px solid black;
+ 
+}
+
+td:nth-child(odd) {
+    background-color: #A0AAC7;
+}
+
+
+
+.trimestre {
+    text-align: right;
+}
+
+.bt{
+    margin-top: 25px;
+    width: 150px;
+    height: 25px;
+    background-color: #BCC8F9;
+    transition-duration: 0.5s;
+    font-weight: 600;
+    border: none;
+    border: dashed  2px black;
+}
+
+.bt:hover{
+    background-color: #7C8ED5;
+    width: 175px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid  2px black;
+    cursor: pointer;
+}
+
+.textId{
+    width: 250px;
+    padding-left: 10px;
+    background-color: #F5F9DA;
+    height: 20px;
+    border-radius: 100px;
+    font-weight: 600;
+    border: solid  2px black;
+}
+
+.label{
+    font-size: 15px;
+}
+
+.btDefault{
+   width: 260px;
+   font-size: 15px;
+   height: 35px;
+   background-color: #BCC8F9;
+   transition-duration: 0.5s;
+   font-weight: 600;
+   border: none;
+   border: dashed  2px black;
+}
+
+.btDefault:hover{
+    background-color: #7C8ED5;
+    cursor: pointer;
+}
+
+.menu{
+    border: 3px solid black;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px 100px;
+    margin: 20px 150px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #FBEDE4;
+    
+}
+
+#image{
+    height: 150px;
+    width: 150px;
+
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.button2{
+    width: 150px;
+    height: 25px;
+    background-color: #BCC8F9;
+    transition-duration: 0.5s;
+    font-weight: 600;
+    border: none;
+    border: dashed  2px black;
+}
+
+.cb{
+    width: 150px;
+    height: 25px;
+    margin: 2px;;
+    background-color: #A4DCB2;
+    transition-duration: 0.5s;
+    font-weight: 600;
+    border: none;
+    border: dashed  2px black;
+}
+.buttonDaSivla{
+    width: 125px;
+    height: 25px;
+    border: none;
+}
+
+.buttonDaSivla:hover{
+    background-color:rgba(1, 1, 1, 0.25)
+}
+
+sup{
+    background-color:rgba(255, 99, 71, 0)
+}
+sub{
+    background-color:rgba(255, 99, 71, 0)
+
+}
